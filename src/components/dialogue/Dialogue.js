@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import * as Dialog from "@radix-ui/react-dialog";
 import { CaretLeftIcon, CaretRightIcon, Cross2Icon } from "@radix-ui/react-icons";
-import { Flex, Text, Button, Box, Card, Avatar, Grid, Heading, Inset } from "@radix-ui/themes";
+import { Flex, Text, Card, Avatar, Grid, Heading } from "@radix-ui/themes";
 import {products} from '../../data'
-import Product from "../Product";
+//import Product from "../Product";
 
 
 import "./styles.css";

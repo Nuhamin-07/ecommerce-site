@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import { IoCartOutline } from "react-icons/io5";
-import { Flex, Text, Button, Box, Card, Avatar, Grid, Heading, Link } from "@radix-ui/themes";
+// import { IoCartOutline } from "react-icons/io5";
+// import { Flex, Text, Button, Box, Card, Avatar, Grid, Heading, Link } from "@radix-ui/themes";
 
 
 export default function Cart({onHandelClick}) {

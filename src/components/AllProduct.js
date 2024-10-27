@@ -1,17 +1,17 @@
 import React from 'react'
 import { products } from '../data'
 import SingleProduct from './SingleProduct'
-import { Flex, Text, Button, Box, Card, Avatar, Grid, Heading, Link } from "@radix-ui/themes";
-import { IoCartOutline } from "react-icons/io5";
+import { Grid} from "@radix-ui/themes";
+// import { IoCartOutline } from "react-icons/io5";
 
 export default function AllProduct() {
 
      return (
         <>
         <h1 className="productsHeader">Products</h1>
-        <Link href="/cart">
+        {/* <Link href="/cart">
             <IoCartOutline />
-        </Link>
+        </Link> */}
         <Grid gap="3" columns={{ initial: "1", md: "3", xs:"1", l: "3" }} width="auto" justify="center">
             {products.map(product => {
                 return(

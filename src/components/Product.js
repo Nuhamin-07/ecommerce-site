@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import { Flex, Text, Button, Box, Card, Avatar, Grid, Heading, Link } from "@radix-ui/themes";
+import { Text, Box, Avatar, Grid, Heading } from "@radix-ui/themes";
 import {products} from '../data'
-import { IoCartOutline } from "react-icons/io5";
-import * as Dialog from "@radix-ui/react-dialog";
-import { Cross2Icon } from "@radix-ui/react-icons";
+// import { IoCartOutline } from "react-icons/io5";
+// import * as Dialog from "@radix-ui/react-dialog";
+// import { Cross2Icon } from "@radix-ui/react-icons";
 //import Dialogue from './dialogue/Dialogue'
 
 export default function Product() {
